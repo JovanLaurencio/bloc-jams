@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var animatePoints = function() {
  
                  var points = document.getElementsByClassName('point');
@@ -28,3 +29,21 @@ var animatePoints = function() {
                  revealThirdPoint();
  
              };
+=======
+ var animatePoints = function() {
+ 
+     var points = document.getElementsByClassName('point');
+ 	 
+	 var revealPoint = function(index) {
+		 points[index].style.opacity = 1;
+         points[index].style.color = "#ffffff";
+		 points[index].style.transform = "scaleX(1) translateY(0)";
+         points[index].style.msTransform = "scaleX(1) translateY(0)";
+         points[index].style.WebkitTransform = "scaleX(1) translateY(0)";
+	 };
+     
+	 for (var i=0; i < points.length; i++) {
+	   revealPoint(i);	 
+	 }
+ };
+>>>>>>> 89e8d9248e4d2a240e080934177a7e4349cb990f

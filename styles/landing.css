@@ -35,6 +35,7 @@ body.landing {
  padding: 2rem;
  text-align: center;
  opacity: 0;
+<<<<<<< HEAD
  opacity: 0;
  -webkit-transform: scaleX(0.9) translateY(3rem);
  -moz-transform: scaleX(0.9) translateY(3rem);
@@ -42,6 +43,15 @@ body.landing {
  -webkit-transition: all 0.25s ease-in-out;
  -moz-transition: all 0.25s ease-in-out;
  transition: all 0.25s ease-in-out;
+=======
+ color: rgba(248,192,212,1);
+ -webkit-transform: scaleX(0.9) translateY(3rem);
+ -moz-transform: scaleX(0.9) translateY(3rem);
+ transform: scaleX(0.9) translateY(3rem);
+ -webkit-transition: all 1.25s ease-in-out;
+ -moz-transition: all 1.25s ease-in-out;
+ transition: all 1.25s ease-in-out;
+>>>>>>> 89e8d9248e4d2a240e080934177a7e4349cb990f
  -webkit-transition-delay: 0.2s;
  -moz-transition-delay: 0.2s;
  transition-delay: 0.2s;
